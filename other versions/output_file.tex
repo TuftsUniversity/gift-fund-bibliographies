@@ -1,0 +1,14 @@
+\documentclass{article}
+
+\usepackage[backend=biber, maxcitenames=2, mincitenames=2]{biblatex-chicago}
+
+\addbibresource{output_file.bib}
+\makeatletter
+\AtEveryBibitem{\global\undef\bbx@lasthash}
+\makeatother
+\begin{document}
+
+\nocite{*}
+\printbibliography
+
+\end{document}

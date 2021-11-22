@@ -1,0 +1,9 @@
+django
+pandas
+openpyxl
+tk
+numpy
+future
+lxml
+python-docx
+citeproc-py
