@@ -49,7 +49,7 @@ import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as et
 
-import secrets
+import secrets_local
 
 import docx
 
@@ -88,7 +88,7 @@ elif library == "2" or library == "Ginn Library" or library == "Ginn" or library
 ######################################################################################################
 ######################################################################################################
 #######     composing URL to retrieve Analtyics report, with filter
-url = "https://api-na.hosted.exlibrisgroup.com/almaws/v1/analytics/reports?apikey=" + str(secrets.apikey)
+url = "https://api-na.hosted.exlibrisgroup.com/almaws/v1/analytics/reports?apikey=" + str(secrets_local.apikey)
 limit = "&limit=1000"
 format = "&format=xml"
 
