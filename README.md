@@ -10,6 +10,7 @@
   
 
 **Command:** 
+  - retrieve secrets.py from https://tufts.box.com/s/lf6jmsccox8yoyjoavjruxt8zxk0n4wm and install in top level directory
   - install requirements (first time)
 	  - python3 -m pip install -r requirements.txt
   - run
